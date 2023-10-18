@@ -22,6 +22,7 @@ num_iterations = 100
 for i in range(num_iterations):
     gradient_value = gradient(x0)
     x0 = x0 - learning_rate * gradient_value
+    
 
 # 打印最小值和最小点
 min_value = f(x0)
